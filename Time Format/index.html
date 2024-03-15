@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // CHAPTER 8
+        // TASK 7
+        document.write("<h1>TASK 7</h1>")
+        var time = +prompt("Enter a 24 hour time format");
+        if (time >=0&&time<12) {
+            document.write("<h2>Good Morning Amigos!")
+        } 
+        else if(time>=12&&time<17) {
+            document.write("<h1>Good Afternoon Amigos!")
+        }
+        else if(time>=17&&time<21) {
+            document.write("<h1>Good Evening Amigos!")
+        }
+        if(time>=21&&time<=24) {
+            document.write("<h1>Good Night Amigos!")
+        }
+
+    </script>
+</body>
+</html>

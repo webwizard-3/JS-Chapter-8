@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        // CHAPTER 8
+        // TASK 1
+        document.write("<h1>TASK 1</h1>")
+        var userInput = prompt("Enter a character (number 1 to 10 or alphabet): ");
+
+        if (userInput >= "A" && userInput == "Z") {
+            document.write("<h2>You entered an uppercase letter: ", userInput);
+        } else if (userInput >= 'a' && userInput <= 'z') {
+            document.write("<h2>You entered an lowercase letter: ", userInput);
+        } else if (userInput >= 1 && userInput <= 10) {
+            document.write("<h2>You entered a number: ", userInput);
+        }
+        else {
+            document.write("<h2>You entered a special character.");
+        }
+
+
+    </script>
+</body>
+
+</html>

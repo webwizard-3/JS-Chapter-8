@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        // CHAPTER 8
+        // TASK 2
+        document.write("<h1>TASK 2</h1>")
+       var frstnum=+prompt("Enter the first number");
+       var  scndnum=+prompt("Enter the second number");
+       if(frstnum>scndnum) {
+          document.write(`<h2>The first integer ${frstnum} has larger value than second integer ${scndnum}</h2>`);
+       }
+        else if(scndnum<frstnum){
+          var maxNum = Math.max(frstnum, scndnum);
+          document.write(`<h2>The second integer ${frstnum} has larger value than first integer ${scndnum}</h2>`);
+       }
+       else{
+        document.write(`<h2>Both integers are equal</h2>`);
+       }
+
+    </script>
+</body>
+
+</html>
